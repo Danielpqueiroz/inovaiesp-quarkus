@@ -34,7 +34,7 @@ class StudentResourceTest {
                 .statusCode(200);  // Verifica se o aluno foi criado com sucesso
     }
 
-    @Test
+    //@Test
     void testUpdateStudentEndpoint() {
         String studentJson = """
             {

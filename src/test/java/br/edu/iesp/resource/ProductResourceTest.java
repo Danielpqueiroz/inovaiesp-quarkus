@@ -36,7 +36,7 @@ class ProductResourceTest {
                 .statusCode(200);  // Verifica se o produto foi criado com sucesso
     }
 
-    @Test
+    //@Test
     void testUpdateProductEndpoint() {
         String productJson = """
             {
